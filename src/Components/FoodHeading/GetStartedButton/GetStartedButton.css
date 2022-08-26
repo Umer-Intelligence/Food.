@@ -1,0 +1,17 @@
+.GetStartedButton {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+.GetStartedButton:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}

@@ -1,0 +1,56 @@
+.button,
+.Apply-button {
+  position: relative;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+.button {
+  left: 100px;
+  top: 80px;
+}
+.Apply-button {
+  left: 310px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
+.Apply-button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
+
+.Heading-heading {
+  padding: 20px;
+  margin: auto;
+  height: 1400px;
+  position: relative;
+  top: 100px;
+  border: double black;
+  border-width: 10px;
+  width: 800px;
+}
+.item {
+  text-align: left;
+  font-style: italic;
+  font-size: 28px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.item-text {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 60px;
+}

@@ -1,0 +1,93 @@
+.Nutrition-Searchbox input {
+  padding: 0.7rem 1.5rem;
+  background-color: transparent;
+  margin-block: black;
+  border: double black;
+  border-radius: 200px;
+  font-size: 20px;
+  width: 500px;
+  height: 30px;
+}
+.Backtobutton {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+Backtobutton:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
+.Nutrition-container {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80px;
+  display: inline block;
+  display: flex;
+  position: relative;
+  margin: 80px auto 0 auto;
+  width: 800px;
+  height: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.NutritionContainer {
+  display: flex;
+  margin-left: 70px;
+  border: solid transparent;
+  width: 1050px;
+  height: 20px;
+  font-size: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.Nutrition-Button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.CalorieContainer {
+  display: flex;
+  margin: auto;
+  border: solid transparent;
+  width: 1050px;
+  height: 60px;
+  font-size: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid black; /* Black */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}

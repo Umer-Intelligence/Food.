@@ -1,0 +1,46 @@
+.Topbar-item-1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 160%;
+  border: solid white;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.Topbar-item-1:hover {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  transition: 0.4s;
+}
+.GetStartedbutton {
+  position: relative;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+.GetStartedbutton:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
+.Topbar-container {
+  border-width: 6px;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}

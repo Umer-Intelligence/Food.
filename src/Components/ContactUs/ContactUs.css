@@ -1,0 +1,73 @@
+.Topbar-item-2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  border: solid white;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.Topbar-item-2:hover {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  transition: 0.4s;
+}
+.Conatct-heading {
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 60px;
+  margin: auto;
+  border: solid transparent;
+  width: 1000px;
+  height: 2500px;
+}
+.heading-text {
+  font-style: italic;
+  font-size: 80px;
+  text-align: center;
+}
+.heading-para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-style: italic;
+}
+.heading-text1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  font-style: italic;
+  text-align: center;
+}
+.image {
+  border: double black;
+  border-width: 7px;
+}
+.image:hover {
+  border: double white;
+  border-width: 9px;
+  padding: 10px;
+}
+.contact-button {
+  position: relative;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.contact-button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}

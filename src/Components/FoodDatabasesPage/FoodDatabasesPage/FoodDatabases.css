@@ -1,0 +1,68 @@
+.Topbar-item-1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 25px;
+  border: solid white;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.Topbar-item-1:hover {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  transition: 0.4s;
+}
+.container-cards {
+  display: flex;
+  width: 1200px;
+  height: 450px;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 35px;
+}
+.Text {
+  font-size: 23px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Button {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  width: 300px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.Button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+.Card-item {
+  padding: 20px;
+  margin: auto;
+  border: double green;
+  border-width: 14px;
+  width: 300px;
+  height: 420px;
+}
+.Card-item:hover {
+  border: double black;
+  border-width: 17px;
+  padding: 15px;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}

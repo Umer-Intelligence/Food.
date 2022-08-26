@@ -1,0 +1,21 @@
+body {
+  background-image: url("https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.container-heading {
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  width: 950px;
+  height: 450px;
+  justify-content: space-around;
+  align-items: center;
+}
+.TextHeading {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+}

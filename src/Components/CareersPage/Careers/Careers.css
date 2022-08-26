@@ -1,0 +1,71 @@
+.Heading-Career {
+  font-size: 45px;
+  font-style: italic;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.Career-container {
+  margin: auto;
+  width: 1100px;
+  height: 400px;
+  position: relative;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Apply {
+  position: relative;
+  left: 30%;
+}
+
+.button {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  border: double green;
+  border-width: 6px;
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
+
+.Position-container {
+  margin: auto;
+  width: 1100px;
+  height: 800px;
+  position: relative;
+  top: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Position-Heading {
+  font-size: 60px;
+  font-weight: bold;
+  font-style: italic;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+.Job-container {
+  width: 1000px;
+  height: 800px;
+  font-size: 40px;
+  flex-direction: column;
+  display: flex;
+  height: 800px;
+  align-items: flex-start;
+  padding-left: 30px;
+  justify-content: space-around;
+}
